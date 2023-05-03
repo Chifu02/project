@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.containerbox{
+    background-image: url(./Images/firstbackground.png);
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    height: 698px;
+}
+.Innercontainer{
+    width: 80%;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+
+.Navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+    margin: auto;
+    padding-top: 0.3rem;
+    
+}
+.tn{
+    display: flex;
+    list-style: none;
+}
+.tn li{
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+padding-right: 4rem;
+cursor: pointer;
+} 
+
+header button{
+padding: 10px 38px;
+width: 117px;
+height: 42px;
+background: #1BC768;
+border-radius: 50px;
+border-style: solid;
+cursor: pointer;
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+border: 1px solid #1BC768;
+}
+
+.wu1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wu11 h1{
+width: 519px;
+height: 100px;
+left: 104px;
+top: 166px;
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+color: #FFFFFF;
+}
+.wu1 p{
+width: 504px;
+height: 50px;
+left: 104px;
+top: 321px;
+font-family: 'Avenir';
+font-style: normal;
+font-size: 18px;
+font-weight: 400;
+color: #FFFFFF;
+margin-top: 3rem;
+}
+
+.bim button{
+box-sizing: border-box;
+align-items: center;
+padding: 10px 35px;
+gap: 10px;
+color: #FFFFFF;
+background-color: #043CAA;
+border: 1px solid #FFFFFF;
+border-radius: 50px;
+margin-top: 2rem;
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+cursor: pointer;
+margin-left: 0.5rem;
+width: 106px;
+height: 45px;
+}
+
+.bim button:hover{
+    color: #043CAA;
+    background-color: white;
+}
+form{
+width: 388px;
+height: 40px;
+background: #DEE9FF;
+border-radius: 50px;
+margin-top: 2rem;
+padding-top: 0.5rem;
+}
+
+form img{
+    margin-left: 1rem;
+    margin-top: 0.5;
+  }
+form input{
+border: 0;
+background: transparent;
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+outline: none;
+color: #7A7A7A;
+width: 205px;
+padding-left: 2rem;
+}
+
+form button{
+    width: 130px;
+    height: 40px;
+    margin-left: 7rem;
+    margin-top: -0.5rem;
+    background: #1BC768;
+    position: absolute;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: none;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.wrap img{
+    width: 100%;
+    margin-top: -0.3rem;
+}
+
+.Section2{
+    margin: auto;
+    width: 80%;
+}
+.try{
+    text-align: center;
+    margin-top: 3.5rem;
+}
+.try h3{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    color: #043CAA;
+}
+.logo{
+text-align: center;
+margin-top: 3rem;
+}
+.logo img{
+    padding-left: 5rem;
+    margin-right: 3.9rem;
+
+}
+.try1{
+    text-align: center;
+    margin-top: 6rem;
+}
+.try1 h4{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    color: #043CAA;
+}
+.try2{
+    margin-top: 12rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.in h5{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    color: #043CAA;
+}
+.in1{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.in1 p{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+}
+
+.in1 img{
+    margin-right: 0.7rem;
+}
+
+.in2 {
+    margin-top: -6rem;
+    margin-left: 2rem;
+}
+.try3{
+    margin-top: 12rem;
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+.in3{
+    margin-top: -6rem;
+    /* margin-left: 1rem; */
+}
+.in0 h5{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    color: #043CAA;
+}
+
+.in3 img{
+    width: 60%;
+    margin-left: 15rem;
+}
+
+.but{
+    margin-top: 3rem; 
+    padding: 11px 35px;
+    border: 1px solid #1BC768;
+    border-radius: 50px;
+    width: 238px;
+}
+.but button{
+border:transparent;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1BC768;
+    background: transparent;
+    cursor: pointer;
+}
+.try3{
+    display: flex;
+    margin-top: 6rem;
+    width: 100%;
+    margin-left: -11rem;
+}
+.pills{
+    margin-left: 20rem;
+    margin-top: 7rem;
+}
+.pills h1{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+     color: #000000;
+     width: 389px;
+}
+.pills img{
+margin-left: 8rem;
+}
+.wu{
+    margin-top: 3rem;
+}
+.wu p{
+    width: 382px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #7A7A7A;
+}
+.wu h3{
+    margin-top: 2rem;
+    width: 382px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #043CAA;
+}
+.wu img{
+    margin-left: -0.1rem;
+    margin-top: 3rem;
+    width: 70px;
+    height: 10px;
+    left: 835px;
+    top: 3193px;
+}
+.lp{
+width: 100%;
+height: 548px;
+margin-top: 10rem;
+background: #043CAA;
+}
+.signup{
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+.up{
+    margin-top: 5rem;
+}
+.up h4{
+    width: 306px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.up p{
+    margin-top: 1rem;
+    width: 404px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.mail{
+    margin-top: 5rem;
+    margin-left: 13rem;
+}
+.mail p{
+    width: 85px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;    
+    color: #FFFFFF;
+    margin-left: 4rem;
+    margin-bottom: 0.5rem;
+}
+.fire{
+    margin: auto;
+    width: 80%;
+}
+.ll{
+    margin-top: 8rem;
+
+}
+.ll p{
+    width: 211px;
+    margin-top: 1rem;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.lll{
+    display: flex;
+    
+}
+.ql{
+    margin-top: 8rem;
+    margin-left: 15rem;
+
+}
+.ql h6{
+    width: 92px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.ql li{
+    list-style: none;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 1rem;
+}
+.ql1{
+    margin-top: 8rem;
+    margin-left: 6rem;
+}
+.ql1 h6{
+    width: 92px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.ql1 li{
+    list-style: none;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 1rem;
+}
+.ql2{
+    margin-top: 8rem;
+    margin-left: 8rem;
+}
+.ql2 h6{
+    width: 108px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.ql2 li{
+    list-style: none;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 1rem;
+}
+.fin{
+    margin: auto;
+    text-align: center;
+    margin-top: 4rem;
+}
+.fin p{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.mail form{
+    margin-top: 0.1rem;
+    margin-left: 4rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .Navigation{
+        margin-left: 4rem;
+        
+    }
+
+    .tn li{
+        font-size: 16px;
+        padding-right: 3rem;
+        } 
+
+        .wrap img{
+            width: 122%;
+            margin-top: 5.1rem;
+            margin-left: 3rem;
+        }
+        
+        .wu11{
+            width: 60%;
+        }
+        
+        .in{
+            width: 60%;
+        }
+
+        .in1 p{
+           width: 100%;
+        }
+
+
+        .in2>img{
+            width: 130%;
+        }
+
+        .in h5{
+           width: 60%;
+        }
+
+        .in3 img{
+        width: 60%;
+        margin-top: 6rem;
+        }
+
+        .in0 {
+            margin-left: 8rem;
+            width: 80%;
+        }
+
+        .mail{
+            margin-left: -1rem;
+        }
+
+        .ql{
+            margin-right: 5rem;
+            width: 30%
+        }
+
+        .ql1{
+            margin-left: -2rem;
+        }
+        
+        .ql2{
+            margin-left: 1.5rem;
+        }
+
+
+        
+}
