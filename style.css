@@ -542,7 +542,23 @@ background: #043CAA;
         .ql2{
             margin-left: 1.5rem;
         }
-
-
+   
         
+}
+@media screen and (max-width: 768px) {
+.Navigation{
+    margin-left: 4rem;
+}
+
+.tn li{
+    width: 199px;
+    /* justify-content:center; */
+    margin-left: -1rem;
+}
+
+.bii{
+    margin-left: -16rem;
+}
+
+
 }
